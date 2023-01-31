@@ -1,0 +1,139 @@
+
+#footer {
+    padding: 40px 0;
+    text-align: center;
+}
+
+#footer .forms {
+    display: flex;
+    justify-content: center;
+    max-width: 500px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 25px 20px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+
+#footer .forms .form {
+    display: none;
+    flex-basis: 100%;
+    padding: 25px 0;
+    text-align: center;
+}
+
+#footer .forms .form.login {
+    display: block;
+}
+
+#footer .forms .form .title {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 25px;
+    color: #000;
+    display: block;
+}
+
+#footer .forms .form form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#footer .forms .form form .input-field {
+    width: 100%;
+    margin-bottom: 15px;
+    position: relative;
+}
+
+#footer .forms .form form .input-field input {
+    width: 100%;
+    padding: 12px 15px;
+    font-size: 14px;
+    color: #333;
+    outline: none;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    background: #fff;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+}
+
+#footer .forms .form form .input-field .icon {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    color: #999;
+    font-size: 16px;
+}
+
+#footer .forms .form form .input-field.button {
+    width: 100%;
+    margin-top: 20px;
+}
+
+#footer .forms .form form .input-field.button input {
+    width: 100%;
+    padding: 12px 15px;
+    font-size: 14px;
+    color: #fff;
+    outline: none;
+    border: none;
+    background: #391ed3;
+    border-radius: 3px;
+    box-shadow: 0 5px 20px rgba(199, 52, 48, 0.4);
+    cursor: pointer;
+}
+
+#footer .forms .form form .input-field.button input:hover {
+    opacity: 0.8;
+}
+
+#footer .forms .form form .checkbox-text {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+#footer .forms .form form .checkbox-text .checkbox-content {
+    display: flex;
+    align-items: center;
+}
+
+#footer .forms .form form .checkbox-text .checkbox-content input {
+    margin-right: 5px;
+}
+
+#footer .forms .form form .checkbox-text .checkbox-content label {
+    font-size: 14px;
+    color: #888;
+    font-weight: normal;
+}
+
+#footer .forms .form form .checkbox-text a {
+    font-size: 14px;
+    color:  #391ed3;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#footer .forms .form .login-signup {
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 14px;
+}
+
+#footer .forms .form .login-signup .text {
+    font-weight: normal;
+    color: #888;
+}
+
+#footer .forms .form .login-signup .signup-link,
+#footer .forms .form .login-signup .login-link {
+    font-weight: bold;
+    color:  #391ed3;
+    text-decoration: none;
+}
